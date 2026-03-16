@@ -1,0 +1,39 @@
+Directed Energy Mini Project - Final Summary
+=========================================================
+
+Fixed Parameters
+----------------
+Wavelength [m]: 1.064e-06
+Atmospheric attenuation [1/m]: 0.0002
+Absorptivity [-]: 0.7
+Exposure time [s]: 2.0
+Heated mass [kg]: 0.01
+Specific heat [J/(kg*K)]: 900.0
+Blooming enabled: True
+Default blooming coefficient: 1e-06
+Irradiance threshold [W/m^2]: 300000.0
+
+Beam Waist Trade Results
+------------------------
+w0 = 0.005 m -> Range-to-effect = 1210.21 m
+w0 = 0.020 m -> Range-to-effect = 1909.91 m
+w0 = 0.050 m -> Range-to-effect = 1783.78 m
+
+Thermal Blooming Trade Results
+------------------------------
+No blooming -> Range-to-effect = 3000.00 m
+Blooming coeff = 1.0e-07 -> Range-to-effect = 3000.00 m
+Blooming coeff = 1.0e-06 -> Range-to-effect = 1909.91 m
+Blooming coeff = 1.0e-05 -> Range-to-effect = 456.46 m
+
+Design Space Best Point
+-----------------------
+Best beam waist [m]: 0.02375
+Best laser power [W]: 20000.00
+Best effective range [m]: 2015.50
+
+Key Interpretation
+------------------
+1. An optimal beam waist exists for the chosen atmospheric condition.
+2. Thermal blooming reduces effective range as beam-medium heating grows.
+3. Increasing power improves range, but diminishing returns emerge due to propagation losses and blooming.
