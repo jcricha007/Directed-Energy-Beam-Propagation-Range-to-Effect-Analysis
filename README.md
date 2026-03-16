@@ -129,17 +129,6 @@ Key Results:
                 - beam waist 
                 - laser power
             Meant to highlight optimal system configuration for the chosen atmospheric conditions 
-    
-    All figures and outputs are automotically saved in a folder with structure:
-        outputs/
-        ├── figures/
-        │   ├── fig1_beam_waist_trade.png
-        │   ├── fig2_blooming_trade.png
-        │   └── fig3_design_space_map.png
-        ├── tables/
-        │   └── summary_metrics.csv
-        └── notes/
-            └── run_summary.txt
 ---------------------------------------------------------------------------------------------
 Simulation Outputs:
 
