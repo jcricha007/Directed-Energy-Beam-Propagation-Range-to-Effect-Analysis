@@ -94,40 +94,6 @@ Range-to-Effect:
 
 ---------------------------------------------------------------------------------------------
 
-Directed Energy Mini Project
-│
-├── beam_model.py
-│   Core physics model
-│
-├── run_demo.py
-│   Example simulation
-│
-├── parameter_sweep.py
-│   Beam waist trade study
-│
-├── power_sweep.py
-│   Laser power scaling analysis
-│
-├── attenuation_sweep.py
-│   Atmospheric condition comparison
-│
-├── blooming_sweep.py
-│   Thermal blooming effects
-│
-├── range_to_effect.py
-│   Computes effective engagement distance
-│
-├── design_space_map.py
-│   Power vs beam waist performance heatmap
-│
-├── optimal_waist_vs_power.py
-│   Finds optimal beam waist for each power level
-│
-└── final.py
-    Generates final project figures
-
----------------------------------------------------------------------------------------------
-
 Key Results:
 
 1. Beam - Waist Optimization:
